@@ -1,0 +1,23 @@
+@media (min-width:320px) and (max-width:767px) {
+    .row {
+        flex-direction: column;
+    }
+
+    .container-flex  {
+    width: 430px;
+    }
+
+
+    .rowtwo {
+        flex-direction: column;
+    }
+    
+    .rowtwo-sub {
+        order: 2;
+    }
+
+    .box-number-one  {
+        width: 300px;
+        height: 240px;
+    }
+}

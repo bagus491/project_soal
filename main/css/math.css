@@ -1,0 +1,165 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    overflow-x: hidden;
+    background: purple;
+}
+
+.container {
+    width: 100%;
+    height: 500vh;
+}
+
+.wrapper {
+    width: 1200px;
+    margin: auto;
+    position: relative;
+}
+
+
+/* container first */
+.containertwo {
+    width: 1200px;
+    height: 1200px;
+    /* background: white; */
+    position: relative;
+    top: 15px;
+   
+}
+
+.container-flex {
+   width: 1200px;
+   height: 650px;
+   display: flex;
+   flex-direction: column;
+}
+
+.row {
+    flex: 50%;
+    padding: 20px;
+    /* background: orange; */
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.row-sub-satu {
+    flex: 50%;
+    background: aqua;
+    padding: 20px;
+}
+
+.row-sub-time {
+    flex: 2%;
+    background: white;
+    padding: 20px;
+}
+
+
+
+
+.rowtwo {
+    flex: 50%;
+    padding: 20px;
+    /* background: brown; */
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.rowtwo-sub {
+    flex: 50%;
+    background: orange;
+    padding: 20px;
+}
+
+.rowtwo-sub-poin {
+    flex: 2%;
+    background: white;
+    padding: 20px;
+}
+
+.rowtwo-sub-poin  ul {
+    list-style: none;
+}
+
+.rowtwo-sub-poin ul li a {
+    padding: 10px 15px 10px 15px;
+    background: grey;
+    text-decoration: none;
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.rowtwo-sub-poin ul li a:hover {
+    background: black;
+    color: gold;
+}
+
+.rowtwo-sub-poin h2 {
+    margin-top: 40px;
+}
+
+/* question */
+
+.box-number-one {
+    background:#F3EFE0;
+    width: 100%;
+    height: 190px;
+}
+
+.box-number-one form input  {
+    width: 40px;
+    margin-top: 5px;
+}
+
+.forbutton {
+    text-align: center;
+}
+
+
+.forbutton  input {
+    padding: 10px 15px 10px 15px;
+    cursor: pointer;
+    margin-left: 10px;
+    background: black;
+    color: white;
+    border: none;
+    transition: 1s;
+}
+
+.forbutton  input:hover {
+    background: gold;
+    color: black;
+   
+}
+
+#buttonreset {
+    padding: 10px 15px 10px 15px;
+    cursor: pointer;
+    margin-left: 10px;
+    background: black;
+    color: white;
+    border: none;
+    transition: 1s;
+}
+
+#buttonreset:hover {
+    background: gold;
+    color: black;
+}
+
+/* times box */
+.boxtime {
+    width: 150px;
+    height: 150px;
+    /* background: black; */
+    border-radius: 100px;
+    border: 1px solid black;
+    text-align: center;
+}

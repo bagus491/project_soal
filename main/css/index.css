@@ -1,0 +1,235 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    overflow-x: hidden;
+    background: purple;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+}
+
+.wrapper {
+    width: 1200px;
+    margin: auto;
+    position: relative;
+}
+
+#containerfirst {
+    width: 1200px;
+    height: 500px;
+    /* background: white; */
+    position: relative;
+    top: 100px;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    width: 1200px;
+    height: 500px;
+}
+
+
+/*  flex one*/
+.flex-one {
+    flex: 50%;
+    /* background: orange; */
+    padding: 20px;
+    text-align: center;
+}
+
+.flex-one h1 {
+    font-size: 40px;
+    color: white;
+    font-family: cursive;
+    font-weight: bold;
+    text-shadow: -1px 15px 10px brown;
+}
+/* flex two */
+
+.flex-two {
+    flex: 50%;
+    /* background: brown; */
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+/* row one */
+.row-one {
+    flex: 50%;
+    /* background: black; */
+    padding: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#formcontainer {
+    width: 350px;
+    height: 250px;
+    background: white;
+    border-radius: 20px;
+    position: relative;
+    z-index: 1;
+    border: 1px solid red;
+    background: white;
+    transition: 1s;
+    text-align: center;
+}
+
+#formcontainer form input {
+    width: 300px;
+    height: 50px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+#formcontainer form button {
+    width: 300px;
+    height: 40px;
+    border-radius: 20px;
+    cursor: pointer;
+    background: gray;
+    border: none;
+    color: white;
+    transition: 1s;
+}
+
+
+
+#formcontainer form button:hover {
+    background: black;
+}
+
+
+/* row two */
+.row-two {
+    flex: 18%;
+    /* background: orange; */
+    padding: 20px;
+}
+
+.container-list {
+    width: 250px;
+    height: 350px;
+    background: black;
+    box-shadow: -1px 5px 5px 5px red;
+    text-align: center;
+    color: white;
+}
+
+
+/* for after login */
+
+#containermtk {
+    width: 350px;
+    height: 250px;
+    background: white;
+    border-radius: 20px;
+    position: relative;
+    z-index: 1;
+    border: 1px solid red;
+    background: white;
+    transition: 1s;
+    text-align: center;
+}
+
+#containermtk  li {
+    list-style: none;
+}
+
+#containermtk button {
+    padding: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+    background: gray;
+    border: none;
+    color: white;
+    transition: 1s;
+    text-decoration: none;
+    transition: 1s;
+}
+
+#containeripas {
+    width: 350px;
+    height: 250px;
+    background: white;
+    border-radius: 20px;
+    position: relative;
+    z-index: 1;
+    border: 1px solid red;
+    background: white;
+    transition: 1s;
+    text-align: center;
+}
+
+#containeripas button {
+    padding: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+    background: gray;
+    border: none;
+    color: white;
+    transition: 1s;
+    text-decoration: none;
+    transition: 1s;
+}
+
+#containeripas li {
+    list-style: none;
+}
+
+#containerindo {
+    width: 350px;
+    height: 250px;
+    background: white;
+    border-radius: 20px;
+    position: relative;
+    z-index: 1;
+    border: 1px solid red;
+    background: white;
+    transition: 1s;
+    text-align: center;
+}
+
+#containerindo button {
+    padding: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+    background: gray;
+    border: none;
+    color: white;
+    transition: 1s;
+    text-decoration: none;
+    transition: 1s;
+}
+
+#containerindo li {
+    list-style: none;
+}
+
+/* this is style for container mapel */
+
+.next {
+    padding: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    background: gray;
+    border: none;
+    color: white;
+    transition: 1s;
+    text-decoration: none;
+    transition: 1s;
+}
+
+.next:hover {
+    background: black;
+}

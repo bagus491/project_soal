@@ -1,0 +1,50 @@
+@media (min-width:320px) and (max-width:767px){
+   
+    .container {
+        height: 150vh;
+    }
+
+    .flex-one h1 {
+        position: relative;
+        right: 390px;
+    }
+
+    .row-one {
+        justify-content: flex-start;
+        
+    }
+
+    .flex-two {
+        flex-direction: column;
+    }
+
+    .container-list {
+        position: relative;
+        left: 40px;
+    }
+
+    #formcontainer  {
+        width: 300px;
+    }
+
+    #formcontainer form input  {
+        width: 250px;
+    }
+
+    #formcontainer form button {
+        width: 250px;
+    }
+
+
+    #containermtk {
+        width: 300px;
+    }
+
+    #containeripas  {
+        width: 300px;
+    }
+
+    #containerindo {
+        width: 300px;
+    }
+}
